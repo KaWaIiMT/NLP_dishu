@@ -1,0 +1,39 @@
+# 自然语言对照数据
+
+## 1. 中文新闻语料
+位置：`d:\_College\NLP\Research\素材\THUcNews\`
+文件：
+- cnews.train4500.txt
+- cnews.val400.txt
+
+## 2. 世界名著（现代中文）
+位置：`d:\_College\NLP\Research\素材\世界名著\`
+子目录：世界名著合集2
+
+## 3. 四库全书数据库（古代汉语）
+位置：`d:\_College\NLP\Research\素材\四库全书数据库\`
+子目录：09医藏-0869部
+
+## 4. 小说语料
+位置：`d:\_College\NLP\Research\素材\小说\`
+子目录：小说
+
+## 5. 多语言Wiki句子语料
+位置：`d:\_College\NLP\Research\素材\WikiSentences30k_16Lans\`
+包含16种语言的维基句子，每种语言约30k句子：
+- cmn（简体中文）
+- eng_simple（简单英语）
+- deu（德语）
+- fra（法语）
+- spa（西班牙语）
+- rus（俄语）
+- jpn（日语）
+- kor（韩语）
+- ara（阿拉伯语）
+- vie（越南语）
+- tha（泰语）
+- hin（印地语）
+- fas（波斯语）
+- heb（希伯来语）
+- por（葡萄牙语）
+- ita（意大利语）

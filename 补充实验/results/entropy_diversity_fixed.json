@@ -1,0 +1,222 @@
+{
+  "analysis_type": "Entropy and Lexical Diversity (EXP-FIX-02-FIX) - Fixed Sampling",
+  "data_source": "literal_gloss from original Dishu annotations",
+  "dishu_token_count": 10538,
+  "sampling_note": "All corpora TTR downsampled to 10538 tokens (100 trials)",
+  "tokenization_note": {
+    "chinese": "jieba segmentation",
+    "ewp": "regex word matching [a-zA-Z]+",
+    "japanese": "regex kanji/hiragana/katakana matching"
+  },
+  "results": [
+    {
+      "label": "地书_literal_gloss",
+      "total_tokens": 10538,
+      "unique_types": 4577,
+      "TTR": 0.4343328904915544,
+      "RTTR": 0.659039369454932,
+      "Shannon_Entropy": 11.108959982594627,
+      "Normalized_Entropy": 0.9135517709877193,
+      "MTLD": 10.0,
+      "TTR_Downsampled": 0.4343328904915544,
+      "TTR_Downsampled_Std": 0.0
+    },
+    {
+      "label": "Chinese_News",
+      "total_tokens": 9919201,
+      "unique_types": 5161,
+      "TTR": 0.0005203040043245419,
+      "RTTR": 0.022810173263799246,
+      "Shannon_Entropy": 9.48113929429574,
+      "Normalized_Entropy": 0.7687346922750905,
+      "MTLD": 10.0,
+      "TTR_Downsampled": 0.15222717783260578,
+      "TTR_Downsampled_Std": 0.0015450096196854388
+    },
+    {
+      "label": "Chinese_Novel",
+      "total_tokens": 467823,
+      "unique_types": 3839,
+      "TTR": 0.008206095040218202,
+      "RTTR": 0.09058749935955955,
+      "Shannon_Entropy": 8.937073301675987,
+      "Normalized_Entropy": 0.7506036332322624,
+      "MTLD": 10.0,
+      "TTR_Downsampled": 0.15093755930916683,
+      "TTR_Downsampled_Std": 0.0016954137308874465
+    },
+    {
+      "label": "Chinese_Classical",
+      "total_tokens": 1382108,
+      "unique_types": 4765,
+      "TTR": 0.0034476321676743063,
+      "RTTR": 0.058716540835392426,
+      "Shannon_Entropy": 8.395060051502936,
+      "Normalized_Entropy": 0.6870912641230147,
+      "MTLD": 10.0,
+      "TTR_Downsampled": 0.11731353197950276,
+      "TTR_Downsampled_Std": 0.0017248590417442125
+    },
+    {
+      "label": "Chinese_Literature",
+      "total_tokens": 1206471,
+      "unique_types": 4338,
+      "TTR": 0.0035956106694649105,
+      "RTTR": 0.05996341108930437,
+      "Shannon_Entropy": 9.119369442630907,
+      "Normalized_Entropy": 0.7547388536955483,
+      "MTLD": 10.0,
+      "TTR_Downsampled": 0.15401214651736572,
+      "TTR_Downsampled_Std": 0.002056828716506798
+    },
+    {
+      "label": "English",
+      "total_tokens": 151320,
+      "unique_types": 19662,
+      "TTR": 0.12993655828707376,
+      "RTTR": 0.3604671389836718,
+      "Shannon_Entropy": 10.362515743408439,
+      "Normalized_Entropy": 0.7265250490368255,
+      "MTLD": 10.0,
+      "TTR_Downsampled": 0.3416397798443727,
+      "TTR_Downsampled_Std": 0.003296603032939267
+    },
+    {
+      "label": "German",
+      "total_tokens": 152926,
+      "unique_types": 33574,
+      "TTR": 0.21954409322155813,
+      "RTTR": 0.4685553256783644,
+      "Shannon_Entropy": 11.242183206505647,
+      "Normalized_Entropy": 0.7477313420989297,
+      "MTLD": 10.0,
+      "TTR_Downsampled": 0.4204070981210856,
+      "TTR_Downsampled_Std": 0.004293464609615624
+    },
+    {
+      "label": "French",
+      "total_tokens": 196884,
+      "unique_types": 26982,
+      "TTR": 0.13704516364966174,
+      "RTTR": 0.37019611511962375,
+      "Shannon_Entropy": 10.305150403133108,
+      "Normalized_Entropy": 0.7000919606833552,
+      "MTLD": 10.0,
+      "TTR_Downsampled": 0.3497418865059785,
+      "TTR_Downsampled_Std": 0.0036826266739263397
+    },
+    {
+      "label": "Japanese",
+      "total_tokens": 38418,
+      "unique_types": 22517,
+      "TTR": 0.5861054713936176,
+      "RTTR": 0.7655752552124563,
+      "Shannon_Entropy": 11.924575598157402,
+      "Normalized_Entropy": 0.8247320523783895,
+      "MTLD": 10.0,
+      "TTR_Downsampled": 0.6306101727082938,
+      "TTR_Downsampled_Std": 0.00385236480047534
+    }
+  ],
+  "comparison_table": [
+    {
+      "Corpus": "地书_literal_gloss",
+      "Tokens": 10538,
+      "Types": 4577,
+      "TTR_raw": "0.4343",
+      "TTR_ds": "0.4343",
+      "RTTR": "0.6590",
+      "Shannon_H": "11.1090",
+      "Norm_H": "0.9136",
+      "MTLD": "10.00"
+    },
+    {
+      "Corpus": "Chinese_News",
+      "Tokens": 9919201,
+      "Types": 5161,
+      "TTR_raw": "0.0005",
+      "TTR_ds": "0.1522",
+      "RTTR": "0.0228",
+      "Shannon_H": "9.4811",
+      "Norm_H": "0.7687",
+      "MTLD": "10.00"
+    },
+    {
+      "Corpus": "Chinese_Novel",
+      "Tokens": 467823,
+      "Types": 3839,
+      "TTR_raw": "0.0082",
+      "TTR_ds": "0.1509",
+      "RTTR": "0.0906",
+      "Shannon_H": "8.9371",
+      "Norm_H": "0.7506",
+      "MTLD": "10.00"
+    },
+    {
+      "Corpus": "Chinese_Classical",
+      "Tokens": 1382108,
+      "Types": 4765,
+      "TTR_raw": "0.0034",
+      "TTR_ds": "0.1173",
+      "RTTR": "0.0587",
+      "Shannon_H": "8.3951",
+      "Norm_H": "0.6871",
+      "MTLD": "10.00"
+    },
+    {
+      "Corpus": "Chinese_Literature",
+      "Tokens": 1206471,
+      "Types": 4338,
+      "TTR_raw": "0.0036",
+      "TTR_ds": "0.1540",
+      "RTTR": "0.0600",
+      "Shannon_H": "9.1194",
+      "Norm_H": "0.7547",
+      "MTLD": "10.00"
+    },
+    {
+      "Corpus": "English",
+      "Tokens": 151320,
+      "Types": 19662,
+      "TTR_raw": "0.1299",
+      "TTR_ds": "0.3416",
+      "RTTR": "0.3605",
+      "Shannon_H": "10.3625",
+      "Norm_H": "0.7265",
+      "MTLD": "10.00"
+    },
+    {
+      "Corpus": "German",
+      "Tokens": 152926,
+      "Types": 33574,
+      "TTR_raw": "0.2195",
+      "TTR_ds": "0.4204",
+      "RTTR": "0.4686",
+      "Shannon_H": "11.2422",
+      "Norm_H": "0.7477",
+      "MTLD": "10.00"
+    },
+    {
+      "Corpus": "French",
+      "Tokens": 196884,
+      "Types": 26982,
+      "TTR_raw": "0.1370",
+      "TTR_ds": "0.3497",
+      "RTTR": "0.3702",
+      "Shannon_H": "10.3052",
+      "Norm_H": "0.7001",
+      "MTLD": "10.00"
+    },
+    {
+      "Corpus": "Japanese",
+      "Tokens": 38418,
+      "Types": 22517,
+      "TTR_raw": "0.5861",
+      "TTR_ds": "0.6306",
+      "RTTR": "0.7656",
+      "Shannon_H": "11.9246",
+      "Norm_H": "0.8247",
+      "MTLD": "10.00"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+---
+title: "《地书》图形语言的语言性量化评估——基于多维标注体系的统计分析"
+title-en: "A Quantitative Language-ness Assessment of EarthScript (Di Shu): Statistical Analysis Based on a Multi-Dimensional Annotation Framework"
+author:
+  - name: "[作者姓名]"
+    affiliation: "[院系/学校]"
+  - name: "[合作者1]"
+  - name: "[合作者2]"
+  - name: "[合作者3]"
+abstract: |
+  图形符号系统（如Emoji、交通标志、UI图标）在当代数字通信中日益重要，但尚未有系统的计算框架来评估它们在多大程度上"像一种语言"。本文以徐冰《地书》为案例，提出一个多维度的"语言性"（Language-ness）量化评估框架，涵盖频率结构、信息密度、词汇多样性、语法类别多样性、篇章结构复杂度和语义稳定性六个维度。基于46,000余条语言学标注数据，对《地书》与21种自然语言语料库进行了系统对比。研究发现：（1）《地书》在词频分布的律则性上接近自然语言（Zipf R² = [待填入]），但在词汇多样性上表现出与自然语言的显著差异（TTR = 0.43）；（2）标注者间一致性分析揭示了图形语言的"歧义热力分布"——[主要发现待填入]。本文首次为图形符号系统提供了一套可复用的多维度语言性评估方法，并通过对标注分歧的系统量化，揭示了视觉符号在"直观易懂"表象下的系统性歧义问题。
+keywords:
+  - 地书
+  - 图形语言
+  - 语言性评估
+  - 标注者间一致性
+  - 齐夫定律
+  - 计算语言学
+keywords-en:
+  - EarthScript (Di Shu)
+  - graphic language
+  - language-ness assessment
+  - inter-annotator agreement
+  - Zipf's law
+  - computational linguistics
+lang: zh-CN
+bibliography: references.bib
+csl: chinese-gb7714-2005-numeric.csl
+---
+
+# 摘要
+
+[正文写完后统一填写]

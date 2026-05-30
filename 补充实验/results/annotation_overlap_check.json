@@ -1,0 +1,174 @@
+{
+  "total_pairs": 31834,
+  "overlapping_pairs": 11231,
+  "single_annotated": 20603,
+  "overlap_rate": 35.27988942639945,
+  "sample_overlaps": {
+    "grp_352525_48_morphological_features": [
+      {
+        "file": "地书-词标注 (1).txt",
+        "value": [
+          "现在 / Present"
+        ],
+        "updated_at": "2026-04-22T12:54:09.997Z"
+      },
+      {
+        "file": "句标注 (338).txt",
+        "value": [
+          "现在 / Present"
+        ],
+        "updated_at": "2026-04-22T12:54:09.997Z"
+      }
+    ],
+    "grp_362202_36_morphological_features": [
+      {
+        "file": "地书-词标注 (1).txt",
+        "value": [
+          "现在 / Present"
+        ],
+        "updated_at": "2026-04-22T12:54:12.679Z"
+      },
+      {
+        "file": "句标注 (338).txt",
+        "value": [
+          "现在 / Present"
+        ],
+        "updated_at": "2026-04-22T12:54:12.679Z"
+      }
+    ],
+    "grp_363996_41_morphological_features": [
+      {
+        "file": "地书-词标注 (1).txt",
+        "value": [
+          "强调 / Emphasis"
+        ],
+        "updated_at": "2026-04-22T12:54:16.166Z"
+      },
+      {
+        "file": "句标注 (338).txt",
+        "value": [
+          "强调 / Emphasis"
+        ],
+        "updated_at": "2026-04-22T12:54:16.166Z"
+      }
+    ],
+    "grp_366908_81_morphological_features": [
+      {
+        "file": "地书-词标注 (1).txt",
+        "value": [
+          "现在 / Present",
+          "进行体 / Progressive"
+        ],
+        "updated_at": "2026-04-22T12:54:21.427Z"
+      },
+      {
+        "file": "句标注 (338).txt",
+        "value": [
+          "现在 / Present",
+          "进行体 / Progressive"
+        ],
+        "updated_at": "2026-04-22T12:54:21.427Z"
+      }
+    ],
+    "grp_440551_42_morphological_features": [
+      {
+        "file": "地书-词标注 (1).txt",
+        "value": [
+          "进行体 / Progressive",
+          "过去 / Past"
+        ],
+        "updated_at": "2026-04-22T12:54:28.261Z"
+      },
+      {
+        "file": "句标注 (338).txt",
+        "value": [
+          "进行体 / Progressive",
+          "过去 / Past"
+        ],
+        "updated_at": "2026-04-22T12:54:28.261Z"
+      }
+    ],
+    "grp_442233_78_morphological_features": [
+      {
+        "file": "地书-词标注 (1).txt",
+        "value": [
+          "完成体 / Perfect"
+        ],
+        "updated_at": "2026-04-22T12:54:31.484Z"
+      },
+      {
+        "file": "句标注 (338).txt",
+        "value": [
+          "完成体 / Perfect"
+        ],
+        "updated_at": "2026-04-22T12:54:31.484Z"
+      }
+    ],
+    "grp_443821_99_morphological_features": [
+      {
+        "file": "地书-词标注 (1).txt",
+        "value": [
+          "重复/迭代 / Iterative"
+        ],
+        "updated_at": "2026-04-22T12:54:35.606Z"
+      },
+      {
+        "file": "句标注 (338).txt",
+        "value": [
+          "重复/迭代 / Iterative"
+        ],
+        "updated_at": "2026-04-22T12:54:35.606Z"
+      }
+    ],
+    "grp_938830_92_morphological_features": [
+      {
+        "file": "地书-词标注 (10).txt",
+        "value": [
+          "比较 / Comparative",
+          "进行体 / Progressive"
+        ],
+        "updated_at": "2026-04-30T04:15:40.107Z"
+      },
+      {
+        "file": "句标注 (5).txt",
+        "value": [
+          "比较 / Comparative",
+          "进行体 / Progressive"
+        ],
+        "updated_at": "2026-04-30T04:15:40.107Z"
+      }
+    ],
+    "grp_902099_29_morphological_features": [
+      {
+        "file": "地书-词标注 (10).txt",
+        "value": [
+          "将来 / Future"
+        ],
+        "updated_at": "2026-04-30T04:15:33.314Z"
+      },
+      {
+        "file": "句标注 (5).txt",
+        "value": [
+          "将来 / Future"
+        ],
+        "updated_at": "2026-04-30T04:15:33.314Z"
+      }
+    ],
+    "grp_024447_14_morphological_features": [
+      {
+        "file": "地书-词标注 (10).txt",
+        "value": [
+          "将来 / Future"
+        ],
+        "updated_at": "2026-04-30T04:15:47.761Z"
+      },
+      {
+        "file": "句标注 (5).txt",
+        "value": [
+          "将来 / Future"
+        ],
+        "updated_at": "2026-04-30T04:15:47.761Z"
+      }
+    ]
+  }
+}

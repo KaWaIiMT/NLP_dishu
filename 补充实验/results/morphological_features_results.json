@@ -1,0 +1,72 @@
+{
+  "analysis_type": "Morphological Feature Distribution (EXP-FIX-05)",
+  "data_source": "morphological_features from original Dishu annotations",
+  "results": {
+    "total_tokens": 10740,
+    "unique_features": 12,
+    "distribution": {
+      "进行体 / Progressive": {
+        "count": 2747,
+        "percentage": 25.58
+      },
+      "现在 / Present": {
+        "count": 2356,
+        "percentage": 21.94
+      },
+      "强调 / Emphasis": {
+        "count": 960,
+        "percentage": 8.94
+      },
+      "复数/集合 / Plural-Collective": {
+        "count": 858,
+        "percentage": 7.99
+      },
+      "重复/迭代 / Iterative": {
+        "count": 851,
+        "percentage": 7.92
+      },
+      "完成体 / Perfect": {
+        "count": 632,
+        "percentage": 5.88
+      },
+      "将来 / Future": {
+        "count": 595,
+        "percentage": 5.54
+      },
+      "过去 / Past": {
+        "count": 476,
+        "percentage": 4.43
+      },
+      "比较 / Comparative": {
+        "count": 364,
+        "percentage": 3.39
+      },
+      "否定 / Negation": {
+        "count": 335,
+        "percentage": 3.12
+      },
+      "程度增强 / Intensified": {
+        "count": 326,
+        "percentage": 3.04
+      },
+      "最高级 / Superlative": {
+        "count": 240,
+        "percentage": 2.23
+      }
+    },
+    "top_features": {
+      "进行体 / Progressive": 2747,
+      "现在 / Present": 2356,
+      "强调 / Emphasis": 960,
+      "复数/集合 / Plural-Collective": 858,
+      "重复/迭代 / Iterative": 851,
+      "完成体 / Perfect": 632,
+      "将来 / Future": 595,
+      "过去 / Past": 476,
+      "比较 / Comparative": 364,
+      "否定 / Negation": 335,
+      "程度增强 / Intensified": 326,
+      "最高级 / Superlative": 240
+    }
+  }
+}

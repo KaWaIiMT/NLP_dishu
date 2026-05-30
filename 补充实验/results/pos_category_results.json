@@ -1,0 +1,62 @@
+{
+  "analysis_type": "POS-like Category Distribution (EXP-FIX-03)",
+  "data_source": "pos_like_category from original Dishu annotations",
+  "results": {
+    "total_tokens": 8708,
+    "unique_categories": 10,
+    "distribution": {
+      "标点/边界标记 / Boundary Marker": {
+        "count": 2903,
+        "percentage": 33.34
+      },
+      "动词性 / Action-like": {
+        "count": 2202,
+        "percentage": 25.29
+      },
+      "名词性 / Entity-like": {
+        "count": 1353,
+        "percentage": 15.54
+      },
+      "整句/整体表达 / Clause-like Unit": {
+        "count": 812,
+        "percentage": 9.32
+      },
+      "形容词性 / State-like": {
+        "count": 486,
+        "percentage": 5.58
+      },
+      "连接/关系标记 / Connector": {
+        "count": 339,
+        "percentage": 3.89
+      },
+      "无法判断 / Undetermined": {
+        "count": 213,
+        "percentage": 2.45
+      },
+      "代词/指示性 / Deictic-like": {
+        "count": 176,
+        "percentage": 2.02
+      },
+      "副词性 / Degree-like": {
+        "count": 150,
+        "percentage": 1.72
+      },
+      "虚词/语法标记 / Grammatical Marker": {
+        "count": 74,
+        "percentage": 0.85
+      }
+    },
+    "top_categories": {
+      "标点/边界标记 / Boundary Marker": 2903,
+      "动词性 / Action-like": 2202,
+      "名词性 / Entity-like": 1353,
+      "整句/整体表达 / Clause-like Unit": 812,
+      "形容词性 / State-like": 486,
+      "连接/关系标记 / Connector": 339,
+      "无法判断 / Undetermined": 213,
+      "代词/指示性 / Deictic-like": 176,
+      "副词性 / Degree-like": 150,
+      "虚词/语法标记 / Grammatical Marker": 74
+    }
+  }
+}

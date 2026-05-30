@@ -1,0 +1,278 @@
+{
+  "analysis_type": "Zipf Law Analysis (EXP-FIX-01)",
+  "data_source": "literal_gloss from original Dishu annotations",
+  "results": [
+    {
+      "label": "地书_literal_gloss",
+      "total_tokens": 10538,
+      "unique_types": 4577,
+      "TTR": 0.4343328904915544,
+      "zipf_slope": -0.6123886568930809,
+      "zipf_intercept": 4.998019419195804,
+      "zipf_r_squared": 0.9234301486725918,
+      "zipf_p_value": 0.0,
+      "top_10_words": {
+        "逗号": 457,
+        "句号": 173,
+        "点": 90,
+        "圆点": 66,
+        "双引号": 66,
+        "冒号": 58,
+        "单引号": 58,
+        "三辆车": 56,
+        "人": 56,
+        "感叹号": 45
+      }
+    },
+    {
+      "label": "Chinese_News",
+      "total_tokens": 50000,
+      "unique_types": 2173,
+      "TTR": 0.04346,
+      "zipf_slope": -1.4045255172007758,
+      "zipf_intercept": 11.309413309080282,
+      "zipf_r_squared": 0.8794080221273898,
+      "zipf_p_value": 0.0,
+      "top_10_words": {
+        "，": 2250,
+        "的": 1544,
+        "。": 930,
+        "一": 601,
+        "是": 568,
+        "在": 459,
+        "不": 412,
+        "有": 401,
+        "0": 379,
+        "1": 363
+      }
+    },
+    {
+      "label": "Chinese_Novel",
+      "total_tokens": 50000,
+      "unique_types": 2580,
+      "TTR": 0.0516,
+      "zipf_slope": -1.3446269659703234,
+      "zipf_intercept": 10.83056488455478,
+      "zipf_r_squared": 0.943432959593023,
+      "zipf_p_value": 0.0,
+      "top_10_words": {
+        "，": 2916,
+        "的": 1834,
+        "。": 1287,
+        "\n": 1023,
+        "了": 857,
+        "一": 727,
+        "是": 725,
+        "不": 716,
+        "”": 548,
+        "“": 535
+      }
+    },
+    {
+      "label": "Chinese_Classical",
+      "total_tokens": 50000,
+      "unique_types": 1910,
+      "TTR": 0.0382,
+      "zipf_slope": -1.4966271183076272,
+      "zipf_intercept": 11.469233764974138,
+      "zipf_r_squared": 0.9440295764792003,
+      "zipf_p_value": 0.0,
+      "top_10_words": {
+        "。": 4426,
+        "之": 1712,
+        "，": 1532,
+        "也": 1334,
+        "为": 874,
+        "以": 842,
+        "而": 747,
+        "故": 725,
+        "不": 670,
+        "其": 636
+      }
+    },
+    {
+      "label": "Chinese_Literature",
+      "total_tokens": 50000,
+      "unique_types": 2559,
+      "TTR": 0.05118,
+      "zipf_slope": -1.3568626596937063,
+      "zipf_intercept": 10.954688991565483,
+      "zipf_r_squared": 0.9300625357928587,
+      "zipf_p_value": 0.0,
+      "top_10_words": {
+        "，": 2454,
+        "的": 1784,
+        "。": 1425,
+        "一": 916,
+        "他": 791,
+        "是": 762,
+        "在": 643,
+        "了": 574,
+        "不": 562,
+        "我": 515
+      }
+    },
+    {
+      "label": "English",
+      "total_tokens": 50000,
+      "unique_types": 115,
+      "TTR": 0.0023,
+      "zipf_slope": -2.6747023509731243,
+      "zipf_intercept": 13.489237919985033,
+      "zipf_r_squared": 0.8238000449749079,
+      "zipf_p_value": 2.0656291035258854e-44,
+      "top_10_words": {
+        " ": 7514,
+        "e": 4463,
+        "t": 3070,
+        "a": 3000,
+        "o": 2752,
+        "n": 2596,
+        "i": 2571,
+        "s": 2405,
+        "r": 2348,
+        "h": 1746
+      }
+    },
+    {
+      "label": "German",
+      "total_tokens": 50000,
+      "unique_types": 114,
+      "TTR": 0.00228,
+      "zipf_slope": -2.5010175628111715,
+      "zipf_intercept": 13.163971763381227,
+      "zipf_r_squared": 0.7794346180978142,
+      "zipf_p_value": 1.4705908277304558e-38,
+      "top_10_words": {
+        " ": 6430,
+        "e": 6068,
+        "n": 3621,
+        "r": 2902,
+        "i": 2811,
+        "t": 2242,
+        "s": 2188,
+        "a": 1974,
+        "d": 1823,
+        "u": 1498
+      }
+    },
+    {
+      "label": "French",
+      "total_tokens": 50000,
+      "unique_types": 114,
+      "TTR": 0.00228,
+      "zipf_slope": -2.445856920579263,
+      "zipf_intercept": 12.896683255029433,
+      "zipf_r_squared": 0.8357691549152307,
+      "zipf_p_value": 9.55075646863089e-46,
+      "top_10_words": {
+        " ": 7443,
+        "e": 5462,
+        "s": 2827,
+        "n": 2710,
+        "a": 2678,
+        "i": 2630,
+        "r": 2604,
+        "t": 2578,
+        "l": 2180,
+        "u": 2118
+      }
+    },
+    {
+      "label": "Japanese",
+      "total_tokens": 50000,
+      "unique_types": 1586,
+      "TTR": 0.03172,
+      "zipf_slope": -1.5445733571008737,
+      "zipf_intercept": 11.533461075097412,
+      "zipf_r_squared": 0.9574718750811532,
+      "zipf_p_value": 0.0,
+      "top_10_words": {
+        "1": 1877,
+        "2": 1255,
+        "0": 1218,
+        " ": 1211,
+        "、": 1171,
+        "\t": 1006,
+        "\n": 1006,
+        "の": 980,
+        "9": 848,
+        "に": 774
+      }
+    }
+  ],
+  "comparison_table": [
+    {
+      "Corpus": "地书_literal_gloss",
+      "Tokens": 10538,
+      "Types": 4577,
+      "TTR": "0.4343",
+      "Zipf_s": "-0.6124",
+      "Zipf_R2": "0.9234"
+    },
+    {
+      "Corpus": "Chinese_News",
+      "Tokens": 50000,
+      "Types": 2173,
+      "TTR": "0.0435",
+      "Zipf_s": "-1.4045",
+      "Zipf_R2": "0.8794"
+    },
+    {
+      "Corpus": "Chinese_Novel",
+      "Tokens": 50000,
+      "Types": 2580,
+      "TTR": "0.0516",
+      "Zipf_s": "-1.3446",
+      "Zipf_R2": "0.9434"
+    },
+    {
+      "Corpus": "Chinese_Classical",
+      "Tokens": 50000,
+      "Types": 1910,
+      "TTR": "0.0382",
+      "Zipf_s": "-1.4966",
+      "Zipf_R2": "0.9440"
+    },
+    {
+      "Corpus": "Chinese_Literature",
+      "Tokens": 50000,
+      "Types": 2559,
+      "TTR": "0.0512",
+      "Zipf_s": "-1.3569",
+      "Zipf_R2": "0.9301"
+    },
+    {
+      "Corpus": "English",
+      "Tokens": 50000,
+      "Types": 115,
+      "TTR": "0.0023",
+      "Zipf_s": "-2.6747",
+      "Zipf_R2": "0.8238"
+    },
+    {
+      "Corpus": "German",
+      "Tokens": 50000,
+      "Types": 114,
+      "TTR": "0.0023",
+      "Zipf_s": "-2.5010",
+      "Zipf_R2": "0.7794"
+    },
+    {
+      "Corpus": "French",
+      "Tokens": 50000,
+      "Types": 114,
+      "TTR": "0.0023",
+      "Zipf_s": "-2.4459",
+      "Zipf_R2": "0.8358"
+    },
+    {
+      "Corpus": "Japanese",
+      "Tokens": 50000,
+      "Types": 1586,
+      "TTR": "0.0317",
+      "Zipf_s": "-1.5446",
+      "Zipf_R2": "0.9575"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "analysis_type": "Entropy and Lexical Diversity (EXP-FIX-02)",
+  "data_source": "literal_gloss from original Dishu annotations",
+  "results": [
+    {
+      "label": "地书_literal_gloss",
+      "total_tokens": 10538,
+      "unique_types": 4577,
+      "TTR": 0.4343328904915544,
+      "RTTR": 0.659039369454932,
+      "Shannon_Entropy": 11.108959982594627,
+      "Normalized_Entropy": 0.9135517709877193,
+      "MTLD": 10.0
+    },
+    {
+      "label": "Chinese_News",
+      "total_tokens": 50000,
+      "unique_types": 2173,
+      "TTR": 0.04346,
+      "RTTR": 0.20847062143141418,
+      "Shannon_Entropy": 9.285140423403195,
+      "Normalized_Entropy": 0.837595371563347,
+      "MTLD": 10.0
+    },
+    {
+      "label": "Chinese_Novel",
+      "total_tokens": 50000,
+      "unique_types": 2580,
+      "TTR": 0.0516,
+      "RTTR": 0.22715633383201095,
+      "Shannon_Entropy": 8.88598141658995,
+      "Normalized_Entropy": 0.7840694971455063,
+      "MTLD": 10.0
+    },
+    {
+      "label": "Chinese_Classical",
+      "total_tokens": 50000,
+      "unique_types": 1910,
+      "TTR": 0.0382,
+      "RTTR": 0.19544820285692063,
+      "Shannon_Entropy": 8.231276480097812,
+      "Normalized_Entropy": 0.7552075354818508,
+      "MTLD": 10.0
+    },
+    {
+      "label": "Chinese_Literature",
+      "total_tokens": 50000,
+      "unique_types": 2559,
+      "TTR": 0.05118,
+      "RTTR": 0.22622997148919063,
+      "Shannon_Entropy": 9.044248774309136,
+      "Normalized_Entropy": 0.7988656162956758,
+      "MTLD": 10.0
+    },
+    {
+      "label": "English",
+      "total_tokens": 50000,
+      "unique_types": 115,
+      "TTR": 0.0023,
+      "RTTR": 0.04795831523312719,
+      "Shannon_Entropy": 4.772494716690189,
+      "Normalized_Entropy": 0.6971735670015027,
+      "MTLD": 10.0
+    },
+    {
+      "label": "German",
+      "total_tokens": 50000,
+      "unique_types": 114,
+      "TTR": 0.00228,
+      "RTTR": 0.047749345545253286,
+      "Shannon_Entropy": 4.893612103615252,
+      "Normalized_Entropy": 0.7161848198157265,
+      "MTLD": 10.0
+    },
+    {
+      "label": "French",
+      "total_tokens": 50000,
+      "unique_types": 114,
+      "TTR": 0.00228,
+      "RTTR": 0.047749345545253286,
+      "Shannon_Entropy": 4.720144253993007,
+      "Normalized_Entropy": 0.6907976338281514,
+      "MTLD": 10.0
+    },
+    {
+      "label": "Japanese",
+      "total_tokens": 50000,
+      "unique_types": 1586,
+      "TTR": 0.03172,
+      "RTTR": 0.17810109488714548,
+      "Shannon_Entropy": 7.929068540081274,
+      "Normalized_Entropy": 0.745831670240791,
+      "MTLD": 10.0
+    }
+  ],
+  "comparison_table": [
+    {
+      "Corpus": "地书_literal_gloss",
+      "Tokens": 10538,
+      "Types": 4577,
+      "TTR": "0.4343",
+      "RTTR": "0.6590",
+      "Shannon_H": "11.1090",
+      "Norm_H": "0.9136",
+      "MTLD": "10.00"
+    },
+    {
+      "Corpus": "Chinese_News",
+      "Tokens": 50000,
+      "Types": 2173,
+      "TTR": "0.0435",
+      "RTTR": "0.2085",
+      "Shannon_H": "9.2851",
+      "Norm_H": "0.8376",
+      "MTLD": "10.00"
+    },
+    {
+      "Corpus": "Chinese_Novel",
+      "Tokens": 50000,
+      "Types": 2580,
+      "TTR": "0.0516",
+      "RTTR": "0.2272",
+      "Shannon_H": "8.8860",
+      "Norm_H": "0.7841",
+      "MTLD": "10.00"
+    },
+    {
+      "Corpus": "Chinese_Classical",
+      "Tokens": 50000,
+      "Types": 1910,
+      "TTR": "0.0382",
+      "RTTR": "0.1954",
+      "Shannon_H": "8.2313",
+      "Norm_H": "0.7552",
+      "MTLD": "10.00"
+    },
+    {
+      "Corpus": "Chinese_Literature",
+      "Tokens": 50000,
+      "Types": 2559,
+      "TTR": "0.0512",
+      "RTTR": "0.2262",
+      "Shannon_H": "9.0442",
+      "Norm_H": "0.7989",
+      "MTLD": "10.00"
+    },
+    {
+      "Corpus": "English",
+      "Tokens": 50000,
+      "Types": 115,
+      "TTR": "0.0023",
+      "RTTR": "0.0480",
+      "Shannon_H": "4.7725",
+      "Norm_H": "0.6972",
+      "MTLD": "10.00"
+    },
+    {
+      "Corpus": "German",
+      "Tokens": 50000,
+      "Types": 114,
+      "TTR": "0.0023",
+      "RTTR": "0.0477",
+      "Shannon_H": "4.8936",
+      "Norm_H": "0.7162",
+      "MTLD": "10.00"
+    },
+    {
+      "Corpus": "French",
+      "Tokens": 50000,
+      "Types": 114,
+      "TTR": "0.0023",
+      "RTTR": "0.0477",
+      "Shannon_H": "4.7201",
+      "Norm_H": "0.6908",
+      "MTLD": "10.00"
+    },
+    {
+      "Corpus": "Japanese",
+      "Tokens": 50000,
+      "Types": 1586,
+      "TTR": "0.0317",
+      "RTTR": "0.1781",
+      "Shannon_H": "7.9291",
+      "Norm_H": "0.7458",
+      "MTLD": "10.00"
+    }
+  ]
+}

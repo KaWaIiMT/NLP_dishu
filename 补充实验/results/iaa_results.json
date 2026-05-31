@@ -1,0 +1,60 @@
+{
+  "morphological_features": {
+    "num_targets": 2105,
+    "num_annotators": 2,
+    "iaa_metrics": {
+      "avg_jaccard": 0.8609738717339663
+    }
+  },
+  "pos_like_category": {
+    "num_targets": 1955,
+    "num_annotators": 2,
+    "iaa_metrics": {
+      "avg_jaccard": 0.7789428815004262
+    }
+  },
+  "literal_gloss": {
+    "num_targets": 3043,
+    "num_annotators": 3,
+    "iaa_metrics": {
+      "cohens_kappa": 0.8021538336839545,
+      "fleiss_kappa": 0.2746706351766965
+    }
+  },
+  "free_translation": {
+    "num_targets": 1306,
+    "num_annotators": 2,
+    "iaa_metrics": {
+      "avg_jaccard": 0.9494640122511485
+    }
+  },
+  "pragmatic_meaning": {
+    "num_targets": 1572,
+    "num_annotators": 2,
+    "iaa_metrics": {
+      "avg_jaccard": 0.8492366412213741
+    }
+  },
+  "discourse_relation": {
+    "num_targets": 457,
+    "num_annotators": 2,
+    "iaa_metrics": {
+      "cohens_kappa": 0.7965957284467136,
+      "fleiss_kappa": 1.7878482773107718
+    }
+  },
+  "visual_cues": {
+    "num_targets": 2,
+    "num_annotators": 2,
+    "iaa_metrics": {
+      "avg_jaccard": 1.0
+    }
+  },
+  "semantic_primitives": {
+    "num_targets": 790,
+    "num_annotators": 2,
+    "iaa_metrics": {
+      "avg_jaccard": 0.9590717299578059
+    }
+  }
+}

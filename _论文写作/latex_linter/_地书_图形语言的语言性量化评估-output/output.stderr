@@ -1,0 +1,21 @@
+ChkTeX v1.7.8 - Copyright 1995-96 Jens T. Berger Thielemann.
+Compiled with PCRE regex support.
+142 errors printed; One warning printed; 1070 user suppressed warnings; No line suppressed warnings.
+See the manual for how to suppress some or all of these warnings/errors.
+The manual is available at https://www.nongnu.org/chktex/ChkTeX.pdf
+Latexmk: Important warning:
+  (\end occurred inside a group at level 14)
+Latexmk: Important warning:
+  (\end occurred inside a group at level 14)
+output.xdv -> output.pdf
+[1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27]
+703713 bytes written
+Latexmk: ====Undefined refs and citations with line #s in .tex file:
+  Missing character: There is no 棪 (U+68EA) in font [FandolSong-Regular.otf]/OT:script=hani;language=dflt;!
+  Missing character: There is no κ (U+03BA) in font [lmroman12-regular]:mapping=tex-text;!
+  Missing character: There is no κ (U+03BA) in font [lmroman12-regular]:mapping=tex-text;!
+  Missing character: There is no κ (U+03BA) in font [lmroman12-regular]:mapping=tex-text;!
+  Missing character: There is no α (U+03B1) in font [lmroman12-regular]:mapping=tex-text;!
+  Missing character: There is no κ (U+03BA) in font [lmroman12-regular]:mapping=tex-text;!
+  Missing character: There is no 给 (U+7ED9) in font [lmroman12-regular]:mapping=tex-text;!
+ And 1197 more --- see log file 'output.log'

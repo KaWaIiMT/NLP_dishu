@@ -1,0 +1,55 @@
+% Pandoc 中文论文模板 — 用于 pandoc --template
+\documentclass[12pt,a4paper,UTF8]{ctexart}
+
+% === 页面 ===
+\usepackage[top=2.5cm, bottom=2.5cm, left=3cm, right=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+% === 表格 ===
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+
+% === 图表 ===
+\usepackage{graphicx}
+\usepackage{caption}
+
+% === 引用 ===
+$if(biblatex)$
+\usepackage[authordate,backend=biber]{biblatex-chicago}
+$endif$
+
+% === 超链接 ===
+\usepackage[hidelinks]{hyperref}
+
+% === 数学 ===
+\usepackage{amsmath}
+
+\title{$title$}
+\author{$for(author)$$author.name$ $sep$ \quad $endfor$}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\begin{minipage}{0.9\textwidth}
+\small
+\textbf{摘\quad 要：}$abstract$
+\end{minipage}
+\end{center}
+
+\begin{center}
+\begin{minipage}{0.9\textwidth}
+\small
+\textbf{关键词：}$for(keywords)$$keywords$$sep$；$endfor$
+\end{minipage}
+\end{center}
+
+\newpage
+
+$body$
+
+\end{document}
